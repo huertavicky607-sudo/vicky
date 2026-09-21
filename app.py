@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string, jsonify
 import os
 
-app = Flask(__name__)
+app = Flask(__app__)
 
 # HTML Template using Tailwind CSS for styling
 HTML_TEMPLATE = """
